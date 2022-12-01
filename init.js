@@ -1,4 +1,2 @@
-const map = new overworld({
-    element: document.querySelector(".game-container")
-});
-map.init();
+const demo = new stage({element: document.querySelector(".game-screen")})
+demo.init()
