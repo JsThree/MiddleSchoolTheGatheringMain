@@ -1,2 +1,7 @@
-const demo = new stage({element: document.querySelector(".game-screen")})
-demo.init()
+
+function start() {
+    const overworld = new Overworld({
+        element: document.querySelector(".game-container")
+    });
+    overworld.init()
+}

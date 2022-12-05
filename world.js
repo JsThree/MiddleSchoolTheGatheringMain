@@ -1,9 +1,15 @@
-class stage{
+class Overworld {
     constructor(config) {
         this.element = config.element;
-        this.canvas = this.element.querySelector(".game-screen")
+        this.canvas = this.element.querySelector(".game-canvas");
+        this.ctx = this.canvas.getContext("2d");
     }
+
     init() {
-        window.open()
-    }
-}
+        const image = new Image();
+        image.onload = () => {
+            this.ctx.drawImage()
+        };
+        image.src = "Test.png";
+    };
+};

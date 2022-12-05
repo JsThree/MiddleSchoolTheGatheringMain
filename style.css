@@ -1,17 +1,19 @@
 body{
-    margin: 0;
-    padding: 0;
-    background-color: black;
+    background-color: rgb(68, 69, 69);
+    margin: 0px;
+    padding: 0px;
 }
 .game-container{
-    position: relative;
     width: 352px;
     height: 198px;
-    margin: auto, 0;
+    margin: auto;
     margin-top: 208px;
+    outline: 1px solid white;
     transform: scale(3);
-    outline: 10px solid white;
 }
 .game-container canvas{
+    background-color: rgb(47, 47, 47);
+    width: inherit;
+    height: inherit;
     image-rendering: pixelated;
 }
