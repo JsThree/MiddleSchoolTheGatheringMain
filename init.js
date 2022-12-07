@@ -1,7 +1,8 @@
-
-function start() {
-    const overworld = new Overworld({
-        element: document.querySelector(".game-container")
-    });
-    overworld.init()
-}
+(function () {
+  const overworld = new Stage({
+    element: document.querySelector(".game-container"),
+    src: "images/map/download.png",
+  });
+  overworld.init();
+  overworld.draw()
+})();
